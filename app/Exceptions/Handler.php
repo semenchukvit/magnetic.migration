@@ -2,8 +2,10 @@
 
 namespace App\Exceptions;
 
+use Carbon\Exceptions\InvalidDateException;
 use Exception;
 use Illuminate\Auth\AuthenticationException;
+use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
